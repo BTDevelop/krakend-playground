@@ -1,4 +1,4 @@
-FROM grafana/grafana:latest
+FROM grafana/grafana:9.4.0-beta1-ubuntu
 
 COPY ./datasources /etc/grafana/provisioning/datasources
 COPY ./dashboards /etc/grafana/provisioning/dashboards
